@@ -3,12 +3,16 @@ Synchronization Script Documentation
 Overview:
 This Python script facilitates the synchronization of data from a source folder or file to a replica folder or file at specified intervals using the command line. It utilizes the argparse module to handle command-line arguments for specifying the source, replica, and synchronization interval.
 Modules Used:
+
+
 •	json: Provides functions for encoding and decoding JSON data.
 •	sched: Implements a generic event scheduler for running tasks at specified times.
 •	logging: Facilitates logging messages to a file.
 •	datetime: Offers classes for manipulating dates and times.
 •	argparse: Simplifies the process of parsing command-line arguments.
 •	time: Provides various time-related functions.
+
+
 Functions:
 1.	setup_logging(): Sets up logging configuration to log synchronization events to a file named "logs.txt".
 2.	synchronize(source, replica): Synchronizes data from a source file or folder to a replica file or folder. It reads data from the source and writes it to the replica using binary mode.
