@@ -6,10 +6,15 @@ Modules Used:
 
 
 •	json: Provides functions for encoding and decoding JSON data.
+
 •	sched: Implements a generic event scheduler for running tasks at specified times.
+
 •	logging: Facilitates logging messages to a file.
+
 •	datetime: Offers classes for manipulating dates and times.
+
 •	argparse: Simplifies the process of parsing command-line arguments.
+
 •	time: Provides various time-related functions.
 
 
